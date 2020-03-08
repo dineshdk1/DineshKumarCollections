@@ -1,0 +1,21 @@
+package com.text.project.collections;
+
+import java.util.*;
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	int choose=0;
+        Scanner o=new Scanner(System.in);
+        while(true) 
+        {
+        	System.out.println("choose the numer");
+        	System.out.println("0:exit\n 1:insert data\n 2:delete data\n 3:search data\n 4:print data\n ");
+        	
+        }
+    }
+}

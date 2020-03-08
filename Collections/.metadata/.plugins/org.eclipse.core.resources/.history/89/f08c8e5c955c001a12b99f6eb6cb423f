@@ -1,0 +1,29 @@
+package com.text.project.collections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class collectionss 
+{
+	
+	 List<Integer> list=new ArrayList<Integer>();
+	
+	
+	
+	void insert(int element)
+	{
+		list.add(element);
+	}
+	void delete(int element)
+	{
+		list.remove(list.indexOf(element));
+	}
+	int search(int element)
+	{
+		return list.indexOf(element);
+	}
+	void print()
+	{
+		System.out.println(list);
+	}
+}

@@ -1,0 +1,26 @@
+package com.text.project.collections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class collectionss 
+{
+	
+	List<Integer> lists=new ArrayList<Integer>(10);
+	
+	for(int i=1;i<=10;i++)
+		list.add(i);
+	
+	public static void insert(int element)
+	{
+		lists.add(element);
+	}
+	public static void delete(int element)
+	{
+		lists.remove(element);
+	}
+	public static void search()
+	{
+		Collections.indexof();
+	}
+}
